@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Menuitem
+import models import menuitem
 
 class MenuItemAdmin(admin.ModelAdmin):
     list_display=('name','price')
