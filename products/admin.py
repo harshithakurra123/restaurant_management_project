@@ -6,6 +6,9 @@ class MenuItemAdmin(admin.ModelAdmin):
     list_display=('name','price')
     search_fields=('name',)
 
+   search_fields=('name',)
+
+   
 
 
 
