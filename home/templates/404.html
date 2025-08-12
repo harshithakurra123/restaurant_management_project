@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Page Not Found</title>
+        <link rel="stylesheet" href="{% static 'home/styles.css'%}">
+        <style>
+            body{
+            font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+            background-color:#f8f9fa;
+            text-align:center;
+            padding:50px;
+            }
+
+            .error-container{
+            max-width:600px;
+            margin:auto;
+            }
+            h1{
+            font-size:6rem;
+            color:#dc3545;
+            }
+            p{
+            font-size:1.2rem;
+            margin-top:20px;
+            }
+            a{
+            color:#007bff;
+            text-decoration:none;
+            }
+            a:hover{
+            text-decoration:underline;
+            }
+            </style>
+            </head>
+            <body>
+                <div class="error-container">
+                    <h1>404</h1>
+                    <p>Oops! The page you're looking for doesn't exist.</p>
+                    <p><a href="{% url 'home' %}">return to homepage</a></p>
+                    </div>
+                    </body>
+                    </html>
